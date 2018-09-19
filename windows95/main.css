@@ -1,0 +1,86 @@
+@font-face {
+   font-family: pixelarial;
+   src: url(pixelarial.TTF);
+}
+
+
+body{
+	background-color: #159296;
+	margin: 0;
+	padding: 0;
+}
+
+#start{
+	position: absolute;
+	height: 30px;
+	bottom: 2%;
+	left: 0.1%;
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 32px;
+	bottom: 0%;
+	left: 0%;
+	background-color: #C0C0C0;
+	border-top: 2px outset white;
+}
+
+#files{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	left: 15px;
+	top: 125px;
+}
+
+#comp{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	left: 15px;
+	top: 25px;
+}
+
+#trash{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	left: 15px;
+	top: 225px;
+}
+
+#filespic{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	transform: scale(1.4);
+}
+
+#comppic{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+}
+
+#trashpic{
+	width: 100%;
+	height: 90%;
+	position: absolute;
+}
+
+#filestag, #comptag, #trashtag{
+	position: absolute;
+	height: 10px;
+	width: 100%;
+	color: white;
+	font-family: pixelarial;
+	font-size: 10px;
+	bottom: -6px;
+	left: 0px;
+	text-align: center;
+
+}
+
+
