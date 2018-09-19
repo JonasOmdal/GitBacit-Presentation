@@ -1,6 +1,7 @@
 	dragElement(document.getElementById("comp"));
 	dragElement(document.getElementById("trash"));
 	dragElement(document.getElementById("files"));
+	dragElement(document.getElementById("fileexplorer"))
 
 function dragElement(elmnt){
 	var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -38,6 +39,16 @@ function dragElement(elmnt){
 	function closeDragElement(){
 		document.onmouseup = null;
 		document.onmousemove = null;
+	}
+
+
+	document.getElementById('files').addEventListener("click", openThis)
+
+	function openThis(){
+
+		document.getElementById('fileexplorer').style.visibility = "visible";
+		document.getElementById('filepic').src = "fileexplorerpic.gif";
+
 	}
 
 
